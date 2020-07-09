@@ -1,4 +1,4 @@
-# sos-challenge-tourism-06
+# tourism-06
 
 ## Project setup
 ```
