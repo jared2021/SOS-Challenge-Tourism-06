@@ -1,15 +1,22 @@
 <template>
   <div id="app">
-    Hello World, Welcome to our Tourism 06 website.
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view />
   </div>
 </template>
 
 <script>
 
+import About from './components/About.vue'
+
 export default {
   name: 'App',
-  props: {
-    msg: String
+
+  components: {
+    About
   }
 }
 </script>
