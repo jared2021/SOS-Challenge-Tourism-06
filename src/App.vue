@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+      <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link>
+        <router-view />
+        <img src="@/assets/indianapolis.jpg" style="width:100%, height:100%">
+      </div>
   </div>
 </template>
 
@@ -18,7 +19,7 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: -30px;
 }
 
 #nav a {

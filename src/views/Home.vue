@@ -1,8 +1,5 @@
 <template>
   <div class="home">
-    <div class="background">
-      <img src="@/assets/indianapolis.jpg" style="width:100%, height:100%">
-    </div>
     <div class="container">
       <div class="content">
         <h1>Indycate</h1>
@@ -14,9 +11,6 @@
     </div>
   </div>
 </template>
-<style>
-
-</style>
 <style>
 * {
   box-sizing: border-box;
