@@ -1,14 +1,18 @@
 <template>
   <div class="about">
-    <img src="@/assets/indianapolis.jpg" style="width:100%, height:100%">
-    <h1>The mission of this website is to provide users with the knowledge to be able to
-     comfortably go out into the world during these difficult circumstances</h1>
+    <div class="background">
+      <img src="@/assets/indianapolis.jpg" style="width:100%, height:100%">
+    </div>
+    <div class="message">
+      <h1>The mission of this website is to provide users with the knowledge to be able to
+      comfortably go out into the world during these difficult circumstances</h1>
+     </div>
   </div>
 </template>
 
 <style>
 
-.about{
+.message {
   position: absolute;
   top: 400px;
   background: rgb(255, 255, 255); /* Fallback color */
