@@ -4,8 +4,8 @@
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
         <router-link to="/filter">Filter</router-link>
+      </div> 
         <router-view />
-      </div>
   </div>
 </template>
 
@@ -19,7 +19,7 @@
 }
 
 #nav {
-  padding: -30px;
+  padding: 30px;
 }
 
 #nav a {
