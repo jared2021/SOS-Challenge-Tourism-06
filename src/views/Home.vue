@@ -8,6 +8,10 @@
         <h1>Indycate</h1>
         <p>Hello and Welcome to our Tourism 06 website!</p>
         <input type="text" placeholder="Search Here">
+        <router-link to="/nameresult">
+          <button type="button"> Submit</button>
+        </router-link>
+        <router-view />
       </div>
     </div>
   </div>
