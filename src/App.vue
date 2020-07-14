@@ -5,10 +5,13 @@
         <router-link to="/about">About</router-link> |
         <router-link to="/filter">Filter</router-link>
       </div> 
+      <input type="text" placeholder="Search Here" id="businessname" value="">
+        <router-link to="/nameresult">
+        <button type="button"> Submit</button>
+        </router-link>
         <router-view />
   </div>
 </template>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

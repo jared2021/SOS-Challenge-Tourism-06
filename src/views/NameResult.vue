@@ -1,3 +1,7 @@
 <template>
-<h1> This is the result of your search </h1>
+<p> The business you have searched for is {{document.getElementById("businessname").value}}</p>
 </template>
+
+<script>
+
+</script>
