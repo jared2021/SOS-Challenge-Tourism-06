@@ -1,5 +1,5 @@
 export default{
-    business: [
+    companies: [
         {
             name: "Baby's",
             id: 1

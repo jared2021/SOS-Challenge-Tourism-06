@@ -3,15 +3,15 @@
       <div id="nav">
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
-        <router-link to="/filter">Filter</router-link>
+        <router-link to="/filter">Filter</router-link> |
+        <router-link to="/nameresult">Search</router-link>
       </div> 
-      <input type="text" placeholder="Search Here" id="businessname" value="">
-        <router-link to="/nameresult">
-        <button type="button"> Submit</button>
-        </router-link>
-        <router-view />
+      <router-view/>
   </div>
 </template>
+
+<script>
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
