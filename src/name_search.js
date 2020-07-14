@@ -1,5 +1,5 @@
 import business from "@/business.js";
-function searchFunction(){
+export function searchFunction(){
     var test=document.getElementById("businessname").value;
     if(test == business.companies.name)
 {

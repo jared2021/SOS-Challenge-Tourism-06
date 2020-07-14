@@ -1,9 +1,11 @@
 <template>
+<body>
 <div id="nameresult">
     
     <input type="text" placeholder="Search Here" id="businessname" value="please">
     <button onclick="searchFunction()"> Submit</button>
 </div>
+</body>
 </template>
 
 <script>
