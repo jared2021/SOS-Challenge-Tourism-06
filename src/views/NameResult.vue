@@ -4,6 +4,10 @@
 
     <input type="text" placeholder="Search Here" id="businessname" value="please">
     <button @click="searchName"> Submit</button>
+    <div id="searchresults">
+    </div>
+    <div id="businesstype">
+    </div>
 </div>
 </body>
 </template>
