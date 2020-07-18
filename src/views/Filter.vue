@@ -9,11 +9,11 @@
     <div class="container">
     <div class="filter1">
       <p1>
-        Show me places that prcatice special measures for COVID-19?
+        Show me places that practice special measures for COVID-19?
       </p1>
       <br>
-      <input type="radio" name="precautions" value="Yes">Yes
-      <input type="radio" name="precautions" value="No">No
+      <input type="radio" name="precautions" value="Yes" id="yes">Yes
+      <input type="radio" name="precautions" value="No" id="no">No
     </div>
     <div class="filter2">
       <p3>
@@ -44,27 +44,49 @@
       </p4>
       <br>
       <div class="boxes">
-        <input type="checkbox" name="interests" value="Restaurants">Restaurants
+        <input type="checkbox" name="interests" value="Restaurants" id="restaurants">Restaurants
         <br>
-        <input type="checkbox" name="interests" value="Bars">Bars
+        <input type="checkbox" name="interests" value="Bars" id="bars">Bars
         <br>
-        <input type="checkbox" name="interests" value="Cafes">Cafes
+        <input type="checkbox" name="interests" value="Cafes" id="cafes">Cafes
         <br>
-        <input type="checkbox" name="interests" value="Hotels">Hotels
+        <input type="checkbox" name="interests" value="Hotels" id="hotels">Hotels
         <br>
-        <input type="checkbox" name="interests" value="Parks">Parks
+        <input type="checkbox" name="interests" value="Parks" id="parks">Parks
+        <br>
+        <input type="checkbox" name="interests" value="Music and Nightlife" id="music_and_nightlife">Music & Nightlife
         <br>
       </div>
     </div>
     <br>
     <div class="submit">
-      <button>
+      <button @click="filterBusiness">
         Submit
       </button>
     </div>
   </div>
+  <div id="business">
+    </div>
+    <div id="address">
+      </div>
+      <div id="website">
+      </div>
+      <div id="number">
+        </div>
     </div>
 </template>
+
+<script>
+import {MyFunctions} from "@/filter_search.js";
+export default {
+  name: "FilterResults",
+  methods:{
+    filterBusiness: function(){
+      MyFunctions.filterFunction();
+    }
+  }
+}
+</script>
 
 <style>
 * {
