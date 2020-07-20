@@ -4,14 +4,16 @@
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
         <router-link to="/filter">Filter</router-link> |
+<<<<<<< HEAD
         <router-link to="/nameresult">Search</router-link>
+=======
+        <router-link to="/allbusinesses">All Businesses</router-link>
+>>>>>>> 3c09c07d41bdcf544d0e81ca7284d19006cd01e9
       </div> 
-      <router-view/>
+        <router-view />
   </div>
 </template>
 
-<script>
-</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
