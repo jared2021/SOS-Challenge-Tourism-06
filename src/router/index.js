@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Filter from "@/views/Filter.vue";
 import NameResult from "@/views/NameResult.vue";
+import AllBusinesses from "@/views/AllBusinesses.vue";
 
 Vue.use(VueRouter);
 
@@ -30,6 +31,11 @@ const routes = [
     path: "/nameresult",
     name: "NameResult",
     component: NameResult
+  },
+  {
+    path: "/allbusinesses",
+    name: "AllBusinesses",
+    component: AllBusinesses
   }
 ];
 
