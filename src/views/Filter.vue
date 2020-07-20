@@ -12,8 +12,9 @@
         Show me places that practice special measures for COVID-19?
       </p1>
       <br>
-      <input type="radio" name="precautions" value="Yes" id="yes">Yes
-      <input type="radio" name="precautions" value="No" id="no">No
+      <input type="checkbox" name="precautions" value="reduced_occupancy" id="reduced_occupancy"> Reduced Occupancy
+      <input type="checkbox" name="precautions" value="required_face_coverings" id="required_face_coverings"> Customers Required to Wear Face Coverings
+      <input type="checkbox" name="precautions" value="employee_face_coverings" id="employee_face_coverings"> Employees Required to Wear Face Coverings
     </div>
     <div class="filter2">
       <p3>
@@ -44,17 +45,21 @@
       </p4>
       <br>
       <div class="boxes">
-        <input type="checkbox" name="interests" value="Restaurants" id="restaurants">Restaurants
+        <input type="checkbox" name="interests" value="Museums" id="museums">Museums & Attractions
         <br>
-        <input type="checkbox" name="interests" value="Bars" id="bars">Bars
+        <input type="checkbox" name="interests" value="Shopping" id="shopping">Shopping
         <br>
-        <input type="checkbox" name="interests" value="Cafes" id="cafes">Cafes
+        <input type="checkbox" name="interests" value="Art" id="art">Art & Culture
+        <br>
+        <input type="checkbox" name="interests" value="Sports" id="sports">Sports & Recreation
+        <br>
+        <input type="checkbox" name="interests" value="Music" id="music">Music & Nightlife
+        <br>
+        <input type="checkbox" name="interests" value="Restaurants" id="restaurants">Eat & Drink
         <br>
         <input type="checkbox" name="interests" value="Hotels" id="hotels">Hotels
         <br>
-        <input type="checkbox" name="interests" value="Parks" id="parks">Parks
-        <br>
-        <input type="checkbox" name="interests" value="Music and Nightlife" id="music_and_nightlife">Music & Nightlife
+        <input type="checkbox" name="interests" value="Events" id="events">Events
         <br>
       </div>
     </div>
