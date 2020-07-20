@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="background">
-      <img src="@/assets/indianapolis.jpg" style="width:100%, height:100%">
+      <img class="center-fit" src="@/assets/Home Page Image IndyCate.png" style="width:1%, height:1%">
     </div>
     <div class="container">
       <div class="content">
@@ -21,6 +21,20 @@
 <style>
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+
+.center-fit{
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
 }
 
 body {
