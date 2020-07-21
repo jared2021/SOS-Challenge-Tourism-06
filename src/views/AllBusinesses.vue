@@ -19,49 +19,49 @@
         <h1>Bazbeaux</h1>
         <p>Eat & Drink</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing.</p>
-        <a href="">Vist Bazbeaux here!</a>
+        <a href="https://www.bazbeaux.com/">Vist Bazbeaux here!</a>
         <p>333 Massachusetts Ave, Indianapolis, IN 46204</p>
         <hr>
         
         <h1>Beef & Boards Dinner Theatre</h1>
         <p>Arts & Culture</p>
         <p>Reduced occupancy, Required face coverings (Customer), Self-Service prohibited, Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, Cleaning Stations, Guest temperature screening, germicidal lighting has been installed, gift shop closed, plexiglass in box office.</p>
-        <a href="beefandboards.com">Vist Beef & Boards Dinner Theatre here!</a>
+        <a href="https://www.beefandboards.com">Vist Beef & Boards Dinner Theatre here!</a>
         <p>9301 Michigan Rd, Indianapolis, IN 46268</p>
         <hr>        
         
         <h1>Big Lug Canteen</h1>
         <p>Eat & Drink</p>
         <p>Required face coverings (Customer), Self-Service prohibited, Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, Regular menu has been ceased and has become a marketplace with touchless curbside pickup and delivery.</p>
-        <a href="sahmsalehouse.com/nora">Visit Big Jug Canteen here!</a>
+        <a href="https://www.sahmsalehouse.com/nora">Visit Big Lug Canteen here!</a>
         <p>1435 E 86th St, Indianapolis, IN 46240</p>
         <hr>
         
         <h1>Bluemile Running Store</h1>
         <p>Shopping</p>
         <p>Reduced occupancy, Separate hours for elderly and vulnerable customers, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing.</p>
-        <a href="jackrabbit.com">Vist Bluemile Running Store here!</a>
+        <a href="https://www.jackrabbit.com/">Vist Bluemile Running Store here!</a>
         <p>1079 Broad Ripple Ave, Indianapolis, IN 46220</p>
         <hr>
         
         <h1>BRU Burger Bar</h1>
         <p>Eat & Drink</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowedto work, All employeesand staff mustwaer face coverings.</p>
-        <a href="bruburgerbar.com">Vist BRU Burger Bar here!</a>
+        <a href="https://www.bruburgerbar.com">Vist BRU Burger Bar here!</a>
         <p>410 Massachusetts Ave, Indianapolis, IN 46204</p>
         <hr>                
         
         <h1>Cafe Patachou</h1>
         <p>Eat & Drink</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, All locations but Broad Ripple closed.</p>
-        <a href="cafepatachou.com">Vist Cafe Patachou here!</a>
+        <a href="https://www.cafepatachou.com">Vist Cafe Patachou here!</a>
         <p>225 W Washington St, Indianapolis, IN 46204</p>
         <hr>        
         
         <h1>Canal Walk</h1>
         <p>Sports & Recreation</p>
         <p> Required face coverings (Customer), 6 Feet Social Distancing.</p>
-        <a href="canalwalkindy.com">Vist Canal Walk here!</a>
+        <a href="https://www.canalwalkindy.com">Vist Canal Walk here!</a>
         <p>420 W Ohio St, Indianapolis, IN 46202</p>
         <hr>        
         
@@ -82,7 +82,7 @@
         <h1>The Children's Musuem of Indianapolis</h1>
         <p>Musuems & Attractions</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, Cleaning Stations, Cashless transactions.</p>
-        <a href="childrensmuseum.org">Vist The Children's Musuem of Indianapolis here!</a>
+        <a href="https://www.childrensmuseum.org">Vist The Children's Musuem of Indianapolis here!</a>
         <p>3000 N Meridian St, Indianapolis, IN 46208</p>
         <hr>        
         
@@ -110,7 +110,7 @@
         <h1>Defy Indianapolis</h1>
         <p>Sports & Recreation</p>
         <p>Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, Cleaning Stations, More frequent cleaning.</p>
-        <a href="https://defy.com/locations/defy-indianapolis/">Vist Defy Indianapolis here!</a>
+        <a href="https://www.defy.com/locations/defy-indianapolis/">Vist Defy Indianapolis here!</a>
         <p>8356 Masters Rd, Indianapolis, IN 46250</p>
         <hr>
         
@@ -166,7 +166,7 @@
         <h1>The HandleBar Indy Pedal Pub</h1>
         <p>Music & Nightlife</p>
         <p>Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, Cleaning Stations, Private group tours only.</p>
-        <a href="https://handlebarindy.com/">Vist The HandleBar Indy Pedal Pub here!</a>
+        <a href="https://www.handlebarindy.com/">Vist The HandleBar Indy Pedal Pub here!</a>
         <p>501 Madison Ave, Indianapolis, IN 46225</p>
         <hr>                
         
@@ -180,7 +180,7 @@
         <h1>Hotel Tango Distillery</h1>
         <p>Eat & Drink</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing.</p>
-        <a href="https://hoteltangowhiskey.com/">Vist Hotel Tango Distillery here!</a>
+        <a href="https://www.hoteltangowhiskey.com/">Vist Hotel Tango Distillery here!</a>
         <p>702 Virginia Ave, Indianapolis, IN 46203</p>
         <hr>                
         
@@ -201,7 +201,7 @@
         <h1>Indiana Historical Society</h1>
         <p>Musuems & Attractions</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, Cleaning Stations, Guests must preform a health self-assessment prior, will remove any guests not complying.</p>
-        <a href="https://indianahistory.org/">Vist Indiana Historical Society here!</a>
+        <a href="https://www.indianahistory.org/">Vist Indiana Historical Society here!</a>
         <p>450 W Ohio St, Indianapolis, IN 46202</p>
         <hr>                
         
@@ -236,7 +236,7 @@
         <h1>Indianapolis Museum of Art at Newfields</h1>
         <p>Musuems & Attractions</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing.</p>
-        <a href="https://discovernewfields.org/">Vist Indianapolis Museum of Art at Newfields here!</a>
+        <a href="https://www.discovernewfields.org/">Vist Indianapolis Museum of Art at Newfields here!</a>
         <p>4000 N Michigan Rd, Indianapolis, IN 46208</p>
         <hr>
         
@@ -250,7 +250,7 @@
         <h1>The Jazz Kitchen</h1>
         <p>Music & Nightlife</p>
         <p>Carryout Only</p>
-        <a href="thejazzkitchen.com">Vist The Jazz Kitchen here!</a>
+        <a href="https://www.thejazzkitchen.com">Vist The Jazz Kitchen here!</a>
         <p>5377 N College Ave, Indianapolis, IN 46220</p>
         <hr>                
         
@@ -299,14 +299,14 @@
         <h1>Madam Walker Legacy Center</h1>
         <p>Musuems & Attractions</p>
         <p>Virtual Offerings, Closed temporarily.</p>
-        <a href="https://madamwalkerlegacycenter.com/">Vist Madam Walker Legacy Center here!</a>
+        <a href="https://www.madamwalkerlegacycenter.com/">Vist Madam Walker Legacy Center here!</a>
         <p>617 Indiana Ave, Indianapolis, IN 46202</p>
         <hr>
         
         <h1>Mama Carolla's Old Italian Restaurant</h1>
         <p>Eat & Drink</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, Outdoor dining and carryout.</p>
-        <a href="mamacarollas.com">Vist Mama Carolla's Old Italian Restaurant here!</a>
+        <a href="https://www.mamacarollas.com">Vist Mama Carolla's Old Italian Restaurant here!</a>
         <p>1031 E 54th St, Indianapolis, IN 46220</p>
         <hr>                
         
@@ -320,14 +320,14 @@
         <h1>Mug 'N Bun</h1>
         <p>Eat & Drink</p>
         <p>Recommended face coverings (Customer), Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, Drive Up Diner, so don't leave your car anyway unless you used limited seating.</p>
-        <a href="http://mug-n-bun.com/">Vist Mug 'N Bun here!</a>
+        <a href="http://www.mug-n-bun.com/">Vist Mug 'N Bun here!</a>
         <p>5211 W 10th St, Speedway, IN 46224</p>
         <hr>                
         
         <h1>Napolese Pizzeria</h1>
         <p>Eat & Drink</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, curbside carryout + patio & socially-distanced indoor dining.</p>
-        <a href="https://napolesepizzeria.com/locations/">Vist Napolese Pizzeria here!</a>
+        <a href="https://www.napolesepizzeria.com/locations/">Vist Napolese Pizzeria here!</a>
         <p>114 E 49th Street, Indianapolis, IN 46205</p>
         <hr>                
         
@@ -341,21 +341,21 @@
         <h1>Punch Bowl Social</h1>
         <p>Sports & Recreation</p>
         <p>Closed</p>
-        <a href="https://punchbowlsocial.com/location/indianapolis">Vist Punch Bowl Social here!</a>
+        <a href="https://www.punchbowlsocial.com/location/indianapolis">Vist Punch Bowl Social here!</a>
         <p>120 S. Meridian St. Indianapolis 46225</p>
         <hr>        
         
         <h1>The Rathskeller</h1>
         <p>Music & Nightlife</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing.</p>
-        <a href="https://rathskeller.com/">Vist The Rathskeller here!</a>
+        <a href="https://www.rathskeller.com/">Vist The Rathskeller here!</a>
         <p>401 E Michigan St, Indianapolis, IN 46204</p>
         <hr>
         
         <h1>Rick's Cafe Boatyard</h1>
         <p>Eat & Drink</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, Cleaning Stations, No contact ordering and payment.</p>
-        <a href="ricksboatyard.com">Vist Rick's Cafe Boatyard here!</a>
+        <a href="https://www.ricksboatyard.com">Vist Rick's Cafe Boatyard here!</a>
         <p>4050 Dandy Trail, Indianapolis, IN 46254</p>
         <hr>                          
         
@@ -369,14 +369,14 @@
         <h1>Sahm's Tavern and Cafe</h1>
         <p>Eat & Drink</p>
         <p>Temporarily Closed</p>
-        <a href="sahmstavern.com">Vist Sahm's Tavern and Cafe here!</a>
+        <a href="https://www.sahmstavern.com">Vist Sahm's Tavern and Cafe here!</a>
         <p>433 N Capitol Ave, Indianapolis, IN 46204</p>
         <hr>        
         
         <h1>Shapiro's Delicatessen</h1>
         <p>Eat & Drink</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing.</p>
-        <a href="https://shapiros.com/">Vist Shapiro's Delicatessen here!</a>
+        <a href="https://www.shapiros.com/">Vist Shapiro's Delicatessen here!</a>
         <p>808 S Meridian St. Indianapolis, IN 46240</p>
         <hr>                
         
@@ -390,7 +390,7 @@
         <h1>St. Elmo Steak House</h1>
         <p>Eat & Drink</p>
         <p>Reduced occupancy, Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, Cleaning Stations, Reduced traffic slow.</p>
-        <a href="stelmos.com">Vist St. Elmo Steak House here!</a>
+        <a href="https://www.stelmos.com">Vist St. Elmo Steak House here!</a>
         <p>127 Illinois St, Indianapolis, IN 46225</p>
         <hr>                
         
@@ -404,14 +404,14 @@
         <h1>The Vogue</h1>
         <p>Musci & Nightlife</p>
         <p>Reduced occupancy, Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, Cleaning Stations.</p>
-        <a href="https://thevogue.com/">Vist The Vogue here!</a>
+        <a href="https://www.thevogue.com/">Vist The Vogue here!</a>
         <p>6259 N College Ave, Indianapolis, IN 46220</p>
         <hr>                
         
         <h1>Yats</h1>
         <p>Eat & Drink</p>
         <p>Required face coverings (Customer), Employees and staff are screened for COVID-19 symptoms before being allowed to work, All employees and staff must wear face coverings, 6 Feet Social Distancing, Outdoor dining or carryout.</p>
-        <a href="https://yatscajuncreole.com/wp/">Vist Yats here!</a>
+        <a href="https://www.yatscajuncreole.com/wp/">Vist Yats here!</a>
         <p>5363 North College Ave Indianapolis, IN 46220</p>
         <hr>
       </div>
