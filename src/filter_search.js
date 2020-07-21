@@ -7,6 +7,8 @@ export const MyFunctions ={
         var museums = document.getElementById("museums").checked;
         var shopping = document.getElementById("shopping").checked;
         var art = document.getElementById("art").checked;
+        var sport = document.getElementById("sports").checked;
+        var music = document.getElementById("music").checked;
 
         var nameResult = document.getElementById("business");
         var addressResult = document.getElementById("address");
@@ -621,5 +623,235 @@ export const MyFunctions ={
             
         }
 
+        if(sport)
+        {
+            if(reducedOccupancy && faceCoverings && employeeFaceCoverings || reducedOccupancy && faceCoverings || reducedOccupancy && employeeFaceCoverings || reducedOccupancy)
+            {
+                business_names = ["Old World Gondoliers",
+                "Speedway Indoor Karting"]
+
+                business_number = ["317-340-2489",
+                "317-870-3780"]
+
+                business_address = ["340 W Michigan St, Indianapolis, IN 46202",
+                "1067 N Main St, Speedway, IN 46224"]
+
+                business_website = ["http://www.4gondola.com/",
+                "https://www.sikarting.com/"]
+
+                for(var j=0;j<2;j++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[j];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[j];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[j];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[j];
+                }
+            }
+
+            else if(faceCoverings && employeeFaceCoverings || faceCoverings || employeeFaceCoverings)
+            {
+                business_names = ["Defy Indianapolis",
+                "Go Ape Treetop Adventure"]
+
+                business_number = ["317-520-5030",
+                "800-971-8271"]
+
+                business_address = ["8356 Masters Rd, Indianapolis, IN 46250",
+                "5855 Delong Road, Indianapolis, IN 46254"]
+
+                business_website = ["https://defy.com/locations/defy-indianapolis/",
+                "https://www.goape.com/location/indiana-indianapolis/"]
+
+                for(var k=0;k<2;k++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[k];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[k];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[k];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[k];
+                }
+            }
+            else
+            {
+                business_names = ["Canal Walk",
+                "Defy Indianapolis",
+                "Go Ape Treetop Adventure",
+                "Old World Gondoliers",
+                "Punch Bowl Social",
+                "Speedway Indoor Karting"]
+
+                business_number = ["317-223-2434",
+                "317-520-5030",
+                "800-971-8271",
+                "317-340-2489",
+                "317-249-8613",
+                "317-870-3780"]
+
+                business_address = ["420 W Ohio St, Indianapolis, IN 46202",
+                "8356 Masters Rd, Indianapolis, IN 46250",
+                "5855 Delong Road, Indianapolis, IN 46254",
+                "340 W Michigan St, Indianapolis, IN 46202",
+                "120 S. MERIDIAN ST. INDIANAPOLIS 46225",
+                "1067 N Main St, Speedway, IN 46224"]
+
+                business_website = ["canalwalkindy.com",
+                "https://defy.com/locations/defy-indianapolis/",
+                "https://www.goape.com/location/indiana-indianapolis/",
+                "http://www.4gondola.com/",
+                "https://punchbowlsocial.com/location/indianapolis",
+                "https://www.sikarting.com/"]
+
+                for(var l=0;l<6;l++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[l];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[l];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[l];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[l];
+                }
+            }
+        }
+
+        if(music)
+        {
+            if(reducedOccupancy && faceCoverings && employeeFaceCoverings)
+            {
+                business_names = ["Kilroy's Bar and Grill"]
+
+                business_number = ["317-257-7849"]
+
+                business_address = ["831 Broad Ripple Ave, Indianapolis, IN 46220"]
+
+                business_website = ["https://www.kilroysindy.com/full-menu/"]
+
+                for(var q=0;q<1;q++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[q];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[q];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[q];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[q];
+                }
+            }
+
+            else if(faceCoverings && employeeFaceCoverings || faceCoverings)
+            {
+                business_names = ["Kilroy's Bar and Grill",
+                "The HandleBar Indy Pedal Pub"]
+
+                business_number = ["317-257-7849",
+                "317-620-1448"]
+
+                business_address = ["831 Broad Ripple Ave, Indianapolis, IN 46220",
+                "501 Madison Ave, Indianapolis, IN 46225"]
+
+                business_website = ["https://www.kilroysindy.com/full-menu/",
+                "https://handlebarindy.com/"]
+
+                for(var r=0;r<2;r++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[r];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[r];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[r];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[r];
+                }
+            }
+
+            else if(reducedOccupancy && employeeFaceCoverings || reducedOccupancy)
+            {
+                business_names = ["Baby's",
+                "Kilroy's Bar and Grill",
+                "The Vogue"]
+
+                business_number = ["317-600-3559",
+                "317-257-7849",
+                "317-255-2828"]
+
+                business_address = ["2147 N Talbott St, Indianapolis, IN 46202",
+                "831 Broad Ripple Ave, Indianapolis, IN 46220",
+                "6259 N College Ave, Indianapolis, IN 46220"]
+
+                business_website = ["https://babysindy.com/",
+                "https://www.kilroysindy.com/full-menu/",
+                "https://thevogue.com/"]
+
+                for(var s=0;s<3;s++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[s];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[s];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[s];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[s];
+                }
+            }
+
+            else if(employeeFaceCoverings)
+            {
+                business_names = ["Baby's",
+                "Kilroy's Bar and Grill",
+                "The HandleBar Indy Pedal Pub",
+                "The Vogue"]
+
+                business_number = ["317-600-3559",
+                "317-257-7849",
+                "317-620-1448",
+                "317-255-2828"]
+
+                business_address = ["2147 N Talbott St, Indianapolis, IN 46202",
+                "831 Broad Ripple Ave, Indianapolis, IN 46220",
+                "501 Madison Ave, Indianapolis, IN 46225",
+                "6259 N College Ave, Indianapolis, IN 46220"]
+
+                business_website = ["https://babysindy.com/",
+                "https://www.kilroysindy.com/full-menu/",
+                "https://handlebarindy.com/",
+                "https://thevogue.com/"]
+
+                for(var t=0;t<4;t++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[t];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[t];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[t];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[t];
+                }
+            }
+            else
+            {
+                business_names = ["Baby's",
+                "Just Pop In Popcorn Cafe and Bar",
+                "Kilroy's Bar and Grill",
+                "The HandleBar Indy Pedal Pub",
+                "The Jazz Kitchen",
+                "The Vogue"]
+    
+                business_number = ["317-600-3559",
+                "317-257-9338",
+                "317-257-7849",
+                "317-620-1448",
+                "317-253-4900",
+                "317-255-2828"]
+    
+                business_address = ["2147 N Talbott St, Indianapolis, IN 46202",
+                "6406 Cornell Ave Indianapolis, IN 46220",
+                "831 Broad Ripple Ave, Indianapolis, IN 46220",
+                "501 Madison Ave, Indianapolis, IN 46225",
+                "5377 N College Ave, Indianapolis, IN 46220",
+                "6259 N College Ave, Indianapolis, IN 46220"]
+    
+                business_website = ["https://babysindy.com/",
+                "https://www.justpopinpopcorn.com/popcorn-cafe",
+                "https://www.kilroysindy.com/full-menu/",
+                "https://handlebarindy.com/",
+                "thejazzkitchen.com",
+                "https://thevogue.com/"]
+
+                for(var u=0;u<6;u++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[u];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[u];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[u];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[u];
+                }
+            }
+
+        }
+
     }
+
 }
