@@ -250,7 +250,7 @@ export const MyFunctions ={
         "jackrabbit.com",
         "bruburgerbar.com",
         "cafepatachou.com",
-        "canalwalkindy.com",
+        "downtownindy.org/venue/2087/downtown-indy-canal-walk",
         "https://www.caplingersfreshcatch.com/",
         "https://www.simon.com/mall/castleton-square",
         "https://www.visithamiltoncounty.com/things-to-do/attractions/conner-prairie/",

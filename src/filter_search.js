@@ -672,7 +672,7 @@ export const MyFunctions ={
                 "120 S. MERIDIAN ST. INDIANAPOLIS 46225",
                 "1067 N Main St, Speedway, IN 46224"]
 
-                business_website = ["canalwalkindy.com",
+                business_website = ["downtownindy.org/venue/2087/downtown-indy-canal-walk",
                 "https://defy.com/locations/defy-indianapolis/",
                 "https://www.goape.com/location/indiana-indianapolis/",
                 "http://www.4gondola.com/",

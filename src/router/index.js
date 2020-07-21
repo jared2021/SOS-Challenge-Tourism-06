@@ -1,9 +1,5 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-import Filter from "@/views/Filter.vue";
-import NameResult from "@/views/NameResult.vue";
-import AllBusinesses from "@/views/AllBusinesses.vue";
 
 Vue.use(VueRouter);
 
@@ -11,7 +7,8 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: () =>
+    import(/* webpackChunkName: "home" */ "../views/Home.vue")
   },
   {
     path: "/about",
@@ -25,17 +22,20 @@ const routes = [
   {
     path: "/filter",
     name: "Filter",
-    component: Filter
+    component: () =>
+    import(/* webpackChunkName: "filter" */ "../views/Filter.vue")
   },
   {
     path: "/nameresult",
     name: "NameResult",
-    component: NameResult
+    component: () =>
+    import(/* webpackChunkName: "nameresult" */ "../views/NameResult.vue")
   },
   {
     path: "/allbusinesses",
     name: "AllBusinesses",
-    component: AllBusinesses
+    component: () =>
+    import (/* webpackChunkName: "allbusinesses" */ "../views/AllBusinesses.vue")
   }
 ];
 
