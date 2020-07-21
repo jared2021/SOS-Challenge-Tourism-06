@@ -11,9 +11,6 @@ export const MyFunctions ={
         var music = document.getElementById("music").checked;
 
         var nameResult = document.getElementById("business");
-        var addressResult = document.getElementById("address");
-        var phoneResult = document.getElementById("number");
-        var websiteResult = document.getElementById("website");
 
         var reducedOccupancy = document.getElementById("reduced_occupancy").checked;
         var faceCoverings = document.getElementById("required_face_coverings").checked;
@@ -25,9 +22,6 @@ export const MyFunctions ={
         var business_website
 
         nameResult.innerHTML = ''
-        addressResult.innerHTML = ''
-        phoneResult.innerHTML = ''
-        websiteResult.innerHTML = ''
 
         if(restaurants)
         {
@@ -89,12 +83,11 @@ export const MyFunctions ={
                 "https://rathskeller.com/",
                 "https://www.thetamaleplace.com/"]
 
+                nameResult.innerHTML += "Eat & Drink: <br>"
+
                 for(var a=0;a<13;a++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[a];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[a];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[a];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[a];
+                    nameResult.innerHTML += " " + business_names[a] + " " + business_number[a] + " " + business_address[a] + " " + business_website[a] + "<br>";
                 }
             }
 
@@ -176,12 +169,11 @@ export const MyFunctions ={
                 "https://www.thetamaleplace.com/",
                 "https://yatscajuncreole.com/wp/"]
 
+                nameResult.innerHTML += "Eat & Drink: <br>"
+
                 for(var b=0;b<18;b++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[b];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[b];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[b];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[b];
+                    nameResult.innerHTML += " " + business_names[b] + " " + business_number[b] + " " + business_address[b] + " " + business_website[b] + "<br>";
                 }
             }
 
@@ -266,13 +258,12 @@ export const MyFunctions ={
                 "https://rathskeller.com/",
                 "https://www.thetamaleplace.com/",
                 "https://yatscajuncreole.com/wp/"]
+
+                nameResult.innerHTML += "Eat & Drink: <br>"
             
                 for(var c=0;c<19;c++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[c];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[c];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[c];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[c];
+                    nameResult.innerHTML += " " + business_names[c] + " " + business_number[c] + " " + business_address[c] + " " + business_website[c] + "<br>";
                 }
             }
 
@@ -309,12 +300,11 @@ export const MyFunctions ={
             "https://www.marriott.com/hotels/hotel-information/fitness-center/indjw-jw-marriott-indianapolis/",
             "https://www.thetamaleplace.com/"]
 
+            nameResult.innerHTML += "Hotels: <br>"
+
             for(var d=0;d<6;d++)
             {
-                nameResult.innerHTML = nameResult.textContent + " " + business_names[d];
-                addressResult.innerHTML = addressResult.textContent + " " + business_address[d];
-                phoneResult.innerHTML = phoneResult.textContent + " " + business_number[d];
-                websiteResult.innerHTML = websiteResult.textContent + " " + business_website[d];
+                nameResult.innerHTML += " " + business_names[d] + " " + business_number[d] + " " + business_address[d] + " " + business_website[d] + "<br>";
             }
         }
 
@@ -338,12 +328,11 @@ export const MyFunctions ={
                 "https://www.lucasoilstadium.com/",
                 "https://www.livenation.com/venue/KovZpvEk7A/ruoff-music-center-events"]
 
+                nameResult.innerHTML += "Events: <br>"
+
                 for(var e=0;e<3;e++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[e];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[e];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[e];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[e];
+                    nameResult.innerHTML += " " + business_names[e] + " " + business_number[e] + " " + business_address[e] + " " + business_website[e] + "<br>";
                 }
             }
             
@@ -357,12 +346,11 @@ export const MyFunctions ={
 
                 business_website = ["https://www.indianapolismotorspeedway.com/"]
 
+                nameResult.innerHTML += "Events: <br>"
+
                 for(var f=0;f<1;f++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[f];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[f];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[f];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[f];
+                    nameResult.innerHTML += " " + business_names[f] + " " + business_number[f] + " " + business_address[f] + " " + business_website[f] + "<br>";
                 }
             }
 
@@ -393,12 +381,11 @@ export const MyFunctions ={
                 "https://discovernewfields.org/",
                 "childrensmuseum.org"]
 
+                nameResult.innerHTML += "Museums & Attractions: <br>"
+
                 for(var g=0;g<4;g++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[g];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[g];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[g];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[g];
+                    nameResult.innerHTML += " " + business_names[g] + " " + business_number[g] + " " + business_address[g] + " " + business_website[g] + "<br>";
                 }                
             }
 
@@ -428,12 +415,11 @@ export const MyFunctions ={
                 "https://www.indianapoliszoo.com/",
                 "childrensmuseum.org"]
 
+                nameResult.innerHTML += "Museums & Attractions: <br>"
+
                 for(var h=0;h<5;h++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[h];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[h];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[h];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[h];
+                    nameResult.innerHTML += " " + business_names[h] + " " + business_number[h] + " " + business_address[h] + " " + business_website[h] + "<br>";
                 }
             }
 
@@ -467,12 +453,11 @@ export const MyFunctions ={
                 "https://madamwalkerlegacycenter.com/",
                 "childrensmuseum.org"]
 
+                nameResult.innerHTML += "Museums & Attractions: <br>"
+
                 for(var i=0;i<6;i++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[i];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[i];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[i];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[i];
+                    nameResult.innerHTML += " " + business_names[i] + " " + business_number[i] + " " + business_address[i] + " " + business_website[i] + "<br>";
                 }
             }
             
@@ -503,12 +488,11 @@ export const MyFunctions ={
                 "http://www.indycm.com/",
                 "https://www.simon.com/mall/the-fashion-mall-at-keystone"]
 
+                nameResult.innerHTML += "Shopping: <br>"
+
                 for(var o=0;o<4;o++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[o];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[o];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[o];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[o];
+                    nameResult.innerHTML += " " + business_names[o] + " " + business_number[o] + " " + business_address[o] + " " + business_website[o] + "<br>";
                 }
             }
 
@@ -538,12 +522,11 @@ export const MyFunctions ={
                 "http://www.indycm.com/",
                 "https://www.simon.com/mall/the-fashion-mall-at-keystone"]
 
+                nameResult.innerHTML += "Shopping: <br>"
+
                 for(var p=0;p<5;p++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[p];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[p];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[p];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[p];
+                    nameResult.innerHTML += " " + business_names[p] + " " + business_number[p] + " " + business_address[p] + " " + business_website[p] + "<br>";
                 }
             }
              
@@ -573,12 +556,11 @@ export const MyFunctions ={
                 "https://www.irtlive.com/",
                 "https://www.indplsartcenter.org/"]
 
+                nameResult.innerHTML += "Art & Culture: <br>"
+
                 for(var m=0;m<4;m++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[m];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[m];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[m];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[m];
+                    nameResult.innerHTML += " " + business_names[m] + " " + business_number[m] + " " + business_address[m] + " " + business_website[m] + "<br>";
                 }
             }
 
@@ -612,12 +594,11 @@ export const MyFunctions ={
                 "https://www.irtlive.com/",
                 "https://www.indplsartcenter.org/"]
 
+                nameResult.innerHTML += "Art & Culture: <br>"
+
                 for(var n=0;n<6;n++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[n];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[n];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[n];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[n];
+                    nameResult.innerHTML += " " + business_names[n] + " " + business_number[n] + " " + business_address[n] + " " + business_website[n] + "<br>";
                 }
             }
             
@@ -639,12 +620,11 @@ export const MyFunctions ={
                 business_website = ["http://www.4gondola.com/",
                 "https://www.sikarting.com/"]
 
+                nameResult.innerHTML += "Sports & Recreation: <br>"
+
                 for(var j=0;j<2;j++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[j];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[j];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[j];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[j];
+                    nameResult.innerHTML += " " + business_names[j] + " " + business_number[j] + " " + business_address[j] + " " + business_website[j] + "<br>";
                 }
             }
 
@@ -662,12 +642,11 @@ export const MyFunctions ={
                 business_website = ["https://defy.com/locations/defy-indianapolis/",
                 "https://www.goape.com/location/indiana-indianapolis/"]
 
+                nameResult.innerHTML += "Sports & Recreation: <br>"
+
                 for(var k=0;k<2;k++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[k];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[k];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[k];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[k];
+                    nameResult.innerHTML += " " + business_names[k] + " " + business_number[k] + " " + business_address[k] + " " + business_website[k] + "<br>";
                 }
             }
             else
@@ -700,12 +679,11 @@ export const MyFunctions ={
                 "https://punchbowlsocial.com/location/indianapolis",
                 "https://www.sikarting.com/"]
 
+                nameResult.innerHTML += "Sports & Recreation: <br>"
+
                 for(var l=0;l<6;l++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[l];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[l];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[l];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[l];
+                    nameResult.innerHTML += " " + business_names[l] + " " + business_number[l] + " " + business_address[l] + " " + business_website[l] + "<br>";
                 }
             }
         }
@@ -722,12 +700,11 @@ export const MyFunctions ={
 
                 business_website = ["https://www.kilroysindy.com/full-menu/"]
 
+                nameResult.innerHTML += "Music & Nightlife: <br>"
+
                 for(var q=0;q<1;q++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[q];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[q];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[q];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[q];
+                    nameResult.innerHTML += " " + business_names[q] + " " + business_number[q] + " " + business_address[q] + " " + business_website[q] + "<br>";
                 }
             }
 
@@ -745,12 +722,11 @@ export const MyFunctions ={
                 business_website = ["https://www.kilroysindy.com/full-menu/",
                 "https://handlebarindy.com/"]
 
+                nameResult.innerHTML += "Music & Nightlife: <br>"
+
                 for(var r=0;r<2;r++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[r];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[r];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[r];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[r];
+                    nameResult.innerHTML += " " + business_names[r] + " " + business_number[r] + " " + business_address[r] + " " + business_website[r] + "<br>";
                 }
             }
 
@@ -772,12 +748,11 @@ export const MyFunctions ={
                 "https://www.kilroysindy.com/full-menu/",
                 "https://thevogue.com/"]
 
+                nameResult.innerHTML += "Music & Nightlife: <br>"
+
                 for(var s=0;s<3;s++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[s];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[s];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[s];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[s];
+                    nameResult.innerHTML += " " + business_names[s] + " " + business_number[s] + " " + business_address[s] + " " + business_website[s] + "<br>";
                 }
             }
 
@@ -803,12 +778,11 @@ export const MyFunctions ={
                 "https://handlebarindy.com/",
                 "https://thevogue.com/"]
 
+                nameResult.innerHTML += "Music & Nightlife: <br>"
+
                 for(var t=0;t<4;t++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[t];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[t];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[t];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[t];
+                    nameResult.innerHTML += " " + business_names[t] + " " + business_number[t] + " " + business_address[t] + " " + business_website[t] + "<br>";
                 }
             }
             else
@@ -841,12 +815,11 @@ export const MyFunctions ={
                 "thejazzkitchen.com",
                 "https://thevogue.com/"]
 
+                nameResult.innerHTML += "Music & Nightlife: <br>"
+
                 for(var u=0;u<6;u++)
                 {
-                    nameResult.innerHTML = nameResult.textContent + " " + business_names[u];
-                    addressResult.innerHTML = addressResult.textContent + " " + business_address[u];
-                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[u];
-                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[u];
+                    nameResult.innerHTML += " " + business_names[u] + " " + business_number[u] + " " + business_address[u] + " " + business_website[u] + "<br>";
                 }
             }
 

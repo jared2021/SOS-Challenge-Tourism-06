@@ -1,13 +1,7 @@
 <template>
   <div class="home">
     <div class="background">
-      <img class="center-fit" src="@/assets/Home Page Image IndyCate.png" style="width:1%, height:1%">
-    </div>
-    <div class="container">
-      <div class="content">
-        <h1>Indycate</h1>
-        <p>Hello and Welcome to our Tourism 06 website!</p>
-      </div>
+      <img class="center-fit" src="@/assets/IndyCate_HomePage_V2.jpg">
     </div>
   </div>
  

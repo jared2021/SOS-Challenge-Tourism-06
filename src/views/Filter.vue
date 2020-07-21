@@ -1,7 +1,7 @@
 <template>
   <div class="filter">
     <div class="background">
-      <img src="@/assets/indianapolis filter.jpg">
+      <img class="center-fit" src="@/assets/indianapolis filter.jpg">
     </div>
     <h1>
       Which of these options fits you the best?
@@ -47,15 +47,9 @@
       </button>
     </div>
   </div>
-  <div id="business">
-    </div>
-    <div id="address">
-      </div>
-      <div id="website">
-      </div>
-      <div id="number">
-        </div>
-    </div>
+  <div id="business" class="business">
+  </div>
+</div>
 </template>
 
 <script>
@@ -105,4 +99,10 @@ body {
   position: relative;
   left: 500px;
   max-width: 100%;
+}
+
+.center-fit{
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
 }
