@@ -5,6 +5,7 @@ export const MyFunctions ={
         var hotels = document.getElementById("hotels").checked;
         var events = document.getElementById("events").checked;
         var museums = document.getElementById("museums").checked;
+        var shopping = document.getElementById("shopping").checked;
 
         var nameResult = document.getElementById("business");
         var addressResult = document.getElementById("address");
@@ -471,6 +472,78 @@ export const MyFunctions ={
                     websiteResult.innerHTML = websiteResult.textContent + " " + business_website[i];
                 }
             }
+            
+        }
+
+        if(shopping)
+        {
+
+            if(faceCoverings && reducedOccupancy && employeeFaceCoverings || faceCoverings && reducedOccupancy || faceCoverings && employeeFaceCoverings || faceCoverings)
+            {
+                business_names = ["Bluemile Running Store",
+                "Hotel Tango Distillery",
+                "Indianapolis City Market",
+                "The Fashion Mall, Keystone at the Crossing"]
+
+                business_number = ["317-202-0202",
+                "317-653-1806",
+                "317-634-9266",
+                "317-574-4000"]
+
+                business_address = ["1079 Broad Ripple Ave, Indianapolis, IN 46220",
+                "702 Virginia Ave, Indianapolis, IN 46203",
+                "222 E Market St, Indianapolis, IN 46204",
+                "8702 Keystone Crossing, Indianapolis, IN 46240"]
+
+                business_website = ["jackrabbit.com",
+                "https://hoteltangowhiskey.com/",
+                "http://www.indycm.com/",
+                "https://www.simon.com/mall/the-fashion-mall-at-keystone"]
+
+                for(var o=0;o<4;o++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[o];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[o];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[o];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[o];
+                }
+            }
+
+            else
+            {
+                business_names = ["Bluemile Running Store",
+                "Castleton Square Mall",
+                "Hotel Tango Distillery",
+                "Indianapolis City Market",
+                "The Fashion Mall, Keystone at the Crossing"]
+
+                business_number = ["317-202-0202",
+                "317-849-9994",
+                "317-653-1806",
+                "317-634-9266",
+                "317-574-4000"]
+
+                business_address = ["1079 Broad Ripple Ave, Indianapolis, IN 46220",
+                "6020 E 82nd St, Indianapolis, IN 46250",
+                "702 Virginia Ave, Indianapolis, IN 46203",
+                "222 E Market St, Indianapolis, IN 46204",
+                "8702 Keystone Crossing, Indianapolis, IN 46240"]
+
+                business_website = ["jackrabbit.com",
+                "https://www.simon.com/mall/castleton-square",
+                "https://hoteltangowhiskey.com/",
+                "http://www.indycm.com/",
+                "https://www.simon.com/mall/the-fashion-mall-at-keystone"]
+
+                for(var p=0;p<5;p++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[p];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[p];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[p];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[p];
+                }
+            }
+            
             
         }
 
