@@ -6,6 +6,7 @@ export const MyFunctions ={
         var events = document.getElementById("events").checked;
         var museums = document.getElementById("museums").checked;
         var shopping = document.getElementById("shopping").checked;
+        var art = document.getElementById("art").checked;
 
         var nameResult = document.getElementById("business");
         var addressResult = document.getElementById("address");
@@ -543,7 +544,80 @@ export const MyFunctions ={
                     websiteResult.innerHTML = websiteResult.textContent + " " + business_website[p];
                 }
             }
-            
+             
+        }
+
+        if(art)
+        {
+            if(faceCoverings && reducedOccupancy && employeeFaceCoverings || reducedOccupancy && faceCoverings || reducedOccupancy && employeeFaceCoverings || reducedOccupancy)
+            {
+                business_names = ["Beef & Boards Dinner Theatre",
+                "Indiana Historical Society",
+                "Indiana Repertory Theatre",
+                "Indianapolis Art Center"]
+
+                business_number = ["317-872-9664",
+                "317-232-1882",
+                "317-635-5252",
+                "317-255-2464"]
+
+                business_address = ["9301 Michigan Rd, Indianapolis, IN 46268",
+                "450 W Ohio St, Indianapolis, IN 46202",
+                "140 W Washington St, Indianapolis, IN 46204",
+                "820 E 67th St, Indianapolis, IN 46220"]
+
+                business_website = ["beefandboards.com",
+                "https://indianahistory.org/ ",
+                "https://www.irtlive.com/",
+                "https://www.indplsartcenter.org/"]
+
+                for(var m=0;m<4;m++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[m];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[m];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[m];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[m];
+                }
+            }
+
+            else
+            {
+                business_names = ["Beef & Boards Dinner Theatre",
+                "Easley Winery",
+                "Indiana Grand Racing & Casino",
+                "Indiana Historical Society",
+                "Indiana Repertory Theatre",
+                "Indianapolis Art Center"]
+
+                business_number = ["317-872-9664",
+                "317-636-4516",
+                "317-392-7777",
+                "317-232-1882",
+                "317-635-5252",
+                "317-255-2464"]
+
+                business_address = ["9301 Michigan Rd, Indianapolis, IN 46268",
+                "205 N College Ave, Indianapolis, IN 46202",
+                "4300 N Michigan Rd, Shelbyville, IN 46176",
+                "450 W Ohio St, Indianapolis, IN 46202",
+                "140 W Washington St, Indianapolis, IN 46204",
+                "820 E 67th St, Indianapolis, IN 46220"]
+
+                business_website = ["beefandboards.com",
+                "http://www.easleywinery.com/",
+                "https://www.caesars.com/indiana-grand",
+                "https://indianahistory.org/ ",
+                "https://www.irtlive.com/",
+                "https://www.indplsartcenter.org/"]
+
+                for(var n=0;n<6;n++)
+                {
+                    nameResult.innerHTML = nameResult.textContent + " " + business_names[n];
+                    addressResult.innerHTML = addressResult.textContent + " " + business_address[n];
+                    phoneResult.innerHTML = phoneResult.textContent + " " + business_number[n];
+                    websiteResult.innerHTML = websiteResult.textContent + " " + business_website[n];
+                }
+            }
             
         }
 
